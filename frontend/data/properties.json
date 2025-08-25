@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury Downtown Apartment",
+    "location": "New York, NY",
+    "price": 199,
+    "rating": 4.8,
+    "images": [
+      "/images/property1-1.jpg",
+      "/images/property1-2.jpg",
+      "/images/property1-3.jpg"
+    ],
+    "description": "Beautiful luxury apartment in the heart of downtown Manhattan. Perfect for business travelers and tourists alike.",
+    "amenities": ["WiFi", "Kitchen", "Air conditioning", "Washing machine", "Gym", "Pool"],
+    "host": "Sarah Johnson",
+    "guests": 4,
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "id": 2,
+    "title": "Cozy Beachfront Villa",
+    "location": "Miami, FL",
+    "price": 299,
+    "rating": 4.9,
+    "images": [
+      "/images/property2-1.jpg",
+      "/images/property2-2.jpg",
+      "/images/property2-3.jpg"
+    ],
+    "description": "Stunning beachfront villa with private access to the beach. Wake up to ocean views every morning.",
+    "amenities": ["WiFi", "Beach access", "Pool", "BBQ grill", "Parking", "Hot tub"],
+    "host": "Michael Rodriguez",
+    "guests": 6,
+    "bedrooms": 3,
+    "bathrooms": 3
+  },
+  {
+    "id": 3,
+    "title": "Mountain Cabin Retreat",
+    "location": "Aspen, CO",
+    "price": 249,
+    "rating": 4.7,
+    "images": [
+      "/images/property3-1.jpg",
+      "/images/property3-2.jpg",
+      "/images/property3-3.jpg"
+    ],
+    "description": "Rustic mountain cabin with modern amenities. Perfect for skiing and hiking enthusiasts.",
+    "amenities": ["WiFi", "Fireplace", "Ski storage", "Hot tub", "Mountain views", "Hiking trails"],
+    "host": "Emily Chen",
+    "guests": 8,
+    "bedrooms": 4,
+    "bathrooms": 3
+  },
+  {
+    "id": 4,
+    "title": "Modern City Loft",
+    "location": "San Francisco, CA",
+    "price": 179,
+    "rating": 4.6,
+    "images": [
+      "/images/property4-1.jpg",
+      "/images/property4-2.jpg",
+      "/images/property4-3.jpg"
+    ],
+    "description": "Stylish loft in the trendy SOMA district. Walking distance to tech companies and restaurants.",
+    "amenities": ["WiFi", "Workspace", "Rooftop terrace", "Gym", "Concierge", "Pet friendly"],
+    "host": "David Kim",
+    "guests": 2,
+    "bedrooms": 1,
+    "bathrooms": 1
+  },
+  {
+    "id": 5,
+    "title": "Historic Brownstone",
+    "location": "Boston, MA",
+    "price": 159,
+    "rating": 4.5,
+    "images": [
+      "/images/property5-1.jpg",
+      "/images/property5-2.jpg",
+      "/images/property5-3.jpg"
+    ],
+    "description": "Charming historic brownstone in Back Bay. Experience Boston's rich history and culture.",
+    "amenities": ["WiFi", "Historic charm", "Garden", "Library", "Fireplace", "Classic architecture"],
+    "host": "Jennifer Adams",
+    "guests": 4,
+    "bedrooms": 2,
+    "bathrooms": 2
+  },
+  {
+    "id": 6,
+    "title": "Lakeside Cottage",
+    "location": "Lake Tahoe, CA",
+    "price": 219,
+    "rating": 4.8,
+    "images": [
+      "/images/property6-1.jpg",
+      "/images/property6-2.jpg",
+      "/images/property6-3.jpg"
+    ],
+    "description": "Peaceful lakeside cottage with private dock. Perfect for water sports and relaxation.",
+    "amenities": ["WiFi", "Lake access", "Dock", "Kayaks", "Fire pit", "BBQ area"],
+    "host": "Robert Wilson",
+    "guests": 6,
+    "bedrooms": 3,
+    "bathrooms": 2
+  }
+]
