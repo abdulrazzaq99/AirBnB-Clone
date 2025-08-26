@@ -2,11 +2,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { useAuth } from "../../contexts/AuthContext";
 
-const Navbar = () => {
+const SimpleNavbar = () => {
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
-  const { user, logout, isAuthenticated } = useAuth();
 
   return (
     <nav className="w-full fixed top-0 left-0 py-4 border-b bg-white z-20 shadow transition-all duration-300">
@@ -66,42 +64,12 @@ const Navbar = () => {
 
           {isUserMenuOpen && (
             <div className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-30">
-              {isAuthenticated ? (
-                <>
-                  <div className="px-4 py-2 text-sm text-gray-600 border-b">
-                    {user?.email}
-                  </div>
-                  <Link href="/profile" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    Profile
-                  </Link>
-                  <Link href="/account" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    Account Settings
-                  </Link>
-                  <Link href="/reservations" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    My Reservations
-                  </Link>
-                  <hr className="my-2" />
-                  <Link href="/host" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    Become a Host
-                  </Link>
-                  <hr className="my-2" />
-                  <button 
-                    onClick={logout}
-                    className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-50"
-                  >
-                    Logout
-                  </button>
-                </>
-              ) : (
-                <>
-                  <Link href="/login" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    Login
-                  </Link>
-                  <Link href="/register" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
-                    Sign Up
-                  </Link>
-                </>
-              )}
+              <Link href="/login" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
+                Login
+              </Link>
+              <Link href="/register" className="block px-4 py-2 text-gray-700 hover:bg-gray-50">
+                Sign Up
+              </Link>
             </div>
           )}
         </div>
@@ -110,4 +78,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SimpleNavbar;
