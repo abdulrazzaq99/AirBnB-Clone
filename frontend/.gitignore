@@ -40,3 +40,52 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+
+echo "node_modules/
+__pycache__/
+*.pyc
+.env
+.env.dev
+venv/
+.next/" > .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+.env
+*.env
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# Node / Frontend
+node_modules/
+build/
+dist/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Environment files
+.env
+*.env
+.env.dev
+.env.local
+.env.development
+.env.test
+.env.production
